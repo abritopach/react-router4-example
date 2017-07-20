@@ -1,0 +1,35 @@
+#navmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+#navmenu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navmenu li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+#navmenu li:last-child {
+    border-bottom: none;
+}
+
+#navmenu li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navmenu li a:hover:not(.active) {
+    background-color: #3498db;
+    color: white;
+}
